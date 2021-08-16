@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body
+{
+    background: #06BDC1;
+    background: -webkit-radial-gradient(center, #06BDC1, #68469F);
+    background: -moz-radial-gradient(center, #06BDC1, #68469F);
+    background: radial-gradient(ellipse at center, #06BDC1, #68469F);
+}
+
+
+.container
+{
+    height: 80vh;
+    width: 95%;
+    display: flex;
+    text-align: center;
+}
+
+.quotes
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    width: 900px;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #06BDC1;
+}
+
+.quotes p, .quotes h3
+{
+    font-size: 24px;
+}
+
+@media(max-width:480px)
+{
+   .quotes p, .quotes h3
+{
+    font-size: 16px;
+} 
+}
